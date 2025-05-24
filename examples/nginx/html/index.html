@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Nginx Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .info {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Docker Nginx Example</h1>
+        
+        <div class="info">
+            <p>Это пример статической страницы, обслуживаемой Nginx в Docker-контейнере.</p>
+            <p>Контейнер построен с использованием лучших практик Dockerfile.</p>
+        </div>
+        
+        <h2>Особенности этой конфигурации:</h2>
+        <ul>
+            <li>Использует <code>nginx:alpine</code> для минимального размера образа</li>
+            <li>Запускается от непривилегированного пользователя</li>
+            <li>Оптимизированы настройки производительности</li>
+            <li>Настроены заголовки безопасности</li>
+            <li>Настроено кэширование статических файлов</li>
+            <li>Добавлен HEALTHCHECK для Docker</li>
+        </ul>
+        
+        <p>Подробности можно найти в <a href="https://github.com/one6way/docker_help">GitHub репозитории</a>.</p>
+    </div>
+</body>
+</html> 
